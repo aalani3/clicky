@@ -1,0 +1,29 @@
+
+.hero{
+
+background-color: lightslategrey;
+color: #fff;
+height: 30px;
+padding: 100px 350px;
+padding-bottom: 20px;
+text-align: center;
+
+}
+
+.hero * {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1, .hero h2 {
+  color: black;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 40px;
+}
+ 
